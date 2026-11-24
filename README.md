@@ -15,7 +15,7 @@ A backtest is a claim about the future, written by me, using data I picked. That
 **[`backtest-lint`](https://github.com/chris-dad/backtest-lint)** — guardrails for backtests that would otherwise lie to you.
 *The pain it kills:* almost all backtest tooling helps you **compute** a result, and almost none helps you decide whether the result is **allowed to be believed**. Four independent gates — code (AST, before anything runs), data, runtime holdout, and statistics — with `cannot_determine` as a first-class verdict instead of a fake opinion.
 
-**[`portfolio-track-record`](https://github.com/chris-dad/portfolio-track-record)** — a fingerprinted monthly record: content hashes, a correction log, and no quiet edits.
+**`portfolio-track-record`** (shared on request) — a fingerprinted monthly record: content hashes, a correction log, and no quiet edits.
 *The pain it kills:* published numbers get silently revised, and nobody can prove what the page said last month. Here, every revision gets a new hash; the superseded version stays on the record.
 
 ## Background
